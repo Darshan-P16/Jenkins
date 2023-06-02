@@ -1,5 +1,4 @@
 How to Install Jenkins in Redhat Linux
-
 1. wget https://get.jenkins.io/war-stable/2.361.1/jenkins.war
 2. yum update -y
 3. yum install -y java
