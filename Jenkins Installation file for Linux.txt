@@ -1,0 +1,10 @@
+How to Install Jenkins in Redhat Linux
+
+1. wget https://get.jenkins.io/war-stable/2.361.1/jenkins.war
+2. yum update -y
+3. yum install -y java
+4. java -jar jenkins.war
+5. nohup java -jar jenkins.war &
+6. ll
+7. tail -f nohup.out
+8. cat /root/.jenkins/secrets/initialAdminPassword 
