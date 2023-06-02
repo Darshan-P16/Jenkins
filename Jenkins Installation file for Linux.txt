@@ -8,3 +8,4 @@ How to Install Jenkins in Redhat Linux
 6. ll
 7. tail -f nohup.out
 8. cat /root/.jenkins/secrets/initialAdminPassword 
+Nohup, short for no hang up is a command in Linux systems that keep processes running even after exiting the shell or terminal. Nohup prevents the processes or jobs from receiving the SIGHUP (Signal Hang UP) signal. This is a signal that is sent to a process upon closing or exiting the terminal.
